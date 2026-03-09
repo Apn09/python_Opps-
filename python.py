@@ -59,7 +59,7 @@ wallet = Wallet(2000)
 wallet.pay(500)
 wallet.show_balance()
 
-print("-----")
+print("paid 1500 using wallet")
 
 # Polymorphism example
 payment1 = UPI()
@@ -68,7 +68,7 @@ payment2 = CreditCard()
 payment1.pay(300)
 payment2.pay(700)
 
-print("-----")
+print("paid 300 using UPI and 700 using Credit Card")
 
 # Inheritance + Abstraction example
 delivery1 = BikeDelivery("Anand")
